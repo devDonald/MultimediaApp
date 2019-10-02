@@ -19,13 +19,6 @@
             android:layout_gravity="center"
             />
 
-<!--        TODO 1: remove the Upload image Button -->
-        <Button
-            android:id="@+id/bt_upload_image"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Upload Image"
-            />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,6 +63,13 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bt_pause_recording"
                 android:text="Pause"/>
+
+            <!-- TODO 1: add a play button -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_play_recording"
+                android:text="Play"/>
         </LinearLayout>
     </LinearLayout>
 
